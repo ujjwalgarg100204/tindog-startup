@@ -17,7 +17,6 @@ h2 {
 }
 
 .container-fluid {
-    /*overflow: hidden;*/
     padding: 3% 15% 5%;
 }
 
@@ -75,7 +74,6 @@ h2 {
 
 .feature-box {
     font-size: 150%;
-    /*padding: 5% 0;*/
 }
 
 .fa-heart:hover, .fa-bullseye:hover, .fa-circle-check:hover {
@@ -150,6 +148,7 @@ h2 {
     background-color: #fff;
     padding: 7% 28%;
 }
+
 .socials {
     letter-spacing: 16px;
 }
@@ -169,6 +168,4 @@ h2 {
     .download-apple, .download-playstore {
         margin-bottom: 60px;
     }
-
-
 }
