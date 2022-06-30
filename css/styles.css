@@ -1,0 +1,174 @@
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#navbarSupportedContent {
+    font-size: 1.5rem;
+}
+
+#navbarSupportedContent li {
+    margin: auto 25px;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    /*overflow: hidden;*/
+    padding: 3% 15% 5%;
+}
+
+.description h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    font-family: Ubuntu, sans-serif;
+    font-size: 3rem;
+}
+
+.apple, .google-play {
+    height: 18px;
+    margin: auto 10px;
+}
+
+.download-apple, .download-playstore {
+    margin: auto 10px;
+}
+
+.dog-container {
+    position: relative;
+}
+
+.dog-pic {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+/*----------FEATURES-----------*/
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+#features h3 {
+    font-weight: bold;
+}
+
+.fa-heart, .fa-bullseye, .fa-circle-check {
+    font-size: 400%;
+    color: #ef8172;
+}
+
+.feature-box {
+    font-size: 150%;
+    /*padding: 5% 0;*/
+}
+
+.fa-heart:hover, .fa-bullseye:hover, .fa-circle-check:hover {
+    color: #ff4c68;
+}
+
+.feature-description {
+    padding: 0 20%;
+    color: grey;
+}
+
+/*----------------TESTIMONIALS SECTION-----------*/
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+#testimonials img {
+    border-radius: 50%;
+    width: 14%;
+    margin: 25px 40px 25px 25px;
+}
+
+/*----------------PRESS SECTION-----------*/
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+#press img {
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*Pricing Section*/
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+/*CTA Section*/
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 28%;
+}
+
+.cta-heading {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+#cta button {
+    margin: 50px 15px;
+}
+
+
+/*Footer*/
+#footer {
+    texgut-align: center;
+    background-color: #fff;
+    padding: 7% 28%;
+}
+.socials {
+    letter-spacing: 16px;
+}
+
+/*Media Queries*/
+@media (max-width: 1028px) {
+    .dog-pic {
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .download-apple, .download-playstore {
+        margin-bottom: 60px;
+    }
+
+
+}
